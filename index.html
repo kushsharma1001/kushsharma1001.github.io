@@ -12,14 +12,14 @@
 <script>
             $Lightning.use("forceKnowledge:AuraApp", function() {
               $Lightning.createComponent("forceKnowledge:AuraCmp", 
-              { },
+              { msg : "It works (Aura)!" },
               "divlightning",
               function(cmp) {
                   console.log('AuraCmp created');
               }); 
   
              $Lightning.createComponent("forceKnowledge:lwcCmp", 
-              { },
+              { msg : "It works (LWC)!" },
               "divlightning",
               function(cmp) {
                      console.log('lwcCmp created');
